@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'valentin';
+    src: url('../font/font.TTF');
+}
+
+body{
+    background:#FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.bloqueo{
+display: none;}
+h1{
+    text-align: center;
+    color: #9C265D;
+
+    font-size: 3rem;
+}
+.textoCambio{
+    color: #9C265D;
+    font-size: 3.25rem;
+    text-align: center;
+    font-family: valentin;
+}
+.imagen{
+    max-width: 100%;
+    width: 95%;
+    height: 30rem;
+}
+.container{
+   
+}
+.botonNo{
+    background: #f87171;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.botonSi{
+    background: #4ade80;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.botonReinicio{
+    background: #facc15;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.container__boton{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+@media(width<=480px){
+    .imagen{
+        width: 85%;
+        height: 20rem;
+    }
+}
