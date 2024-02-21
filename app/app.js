@@ -31,13 +31,13 @@ function respuestaNo() {
     "Do you want to be my reason to believe in love?",
   ];
   let imagenes = [
-    "../img/uno.gif",
-    "../img/dos.gif",
-    "../img/tres.gif",
-    "../img/cuatro.gif",
-    "../img/cinco.gif",
-    "../img/siete.gif",
-    "../img/ocho.gif",
+    "img/uno.gif",
+    "img/dos.gif",
+    "img/tres.gif",
+    "img/cuatro.gif",
+    "img/cinco.gif",
+    "img/siete.gif",
+    "img/ocho.gif",
   ];
   let valorRandom = frases[Math.floor(Math.random() * frases.length)];
   let RandomImagen = imagenes[Math.floor(Math.random() * imagenes.length)];
