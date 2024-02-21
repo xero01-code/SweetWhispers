@@ -51,7 +51,7 @@ let botonReinicioCreado=false;
 function respuestaSi(){
 
     jsConfetti.addConfetti()
-    imagenLove.src='../img/lovely-cats.gif'
+    imagenLove.src='img/lovely-cats.gif'
     textoCambia.innerText='I would know you felt the same way I do, I love you. ';
     botonNo.classList.add('bloqueo')
 
